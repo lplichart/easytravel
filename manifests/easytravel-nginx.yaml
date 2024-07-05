@@ -55,6 +55,8 @@ spec:
         #     scheme: HTTP
         #   initialDelaySeconds: 120
         #   periodSeconds: 120
+      nodeSelector:
+        app: easytravel
 ---
 apiVersion: v1
 kind: Service

@@ -39,6 +39,8 @@ spec:
           requests:
             cpu: 100m
             memory: 128Mi
+      nodeSelector:
+        app: easytravel
 ---
 apiVersion: v1
 kind: Service
