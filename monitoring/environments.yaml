@@ -1,0 +1,4 @@
+dynatrace_tenant:
+  - name: "dynatrace_tenant"
+  - env-url: "{{ .Env.DYNATRACE_URL }}"
+  - env-token-name: DYNATRACE_TOKEN
